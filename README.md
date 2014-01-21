@@ -34,6 +34,11 @@ WordPress: Add a post id column in the admin media overview
 
 ## Changelog
 
+### v1.0.1
+
+* Typo in plugin header
+* Language file was not loaded
+
 ### v1.0
 
 * Initial release

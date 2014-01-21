@@ -3,7 +3,7 @@
 Plugin Name: Media ID
 Plugin URI: http://horttcore.de
 Description: Add a media id column on the media overview screen
-Version: 1.2
+Version: 1.0.1
 Author: Ralf Hortt
 Author URI: http://horttcore.de
 License: GPL2
@@ -63,7 +63,7 @@ class MEDIA_ID
 	public function load_plugin_textdomain()
 	{
 
-		#load_plugin_textdomain( 'media-id', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+		load_plugin_textdomain( 'media-id', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
 	} // end load_plugin_textdomain
 
